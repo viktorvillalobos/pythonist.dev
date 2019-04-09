@@ -20,7 +20,6 @@ urllib3 = "==1.24.1"
 zappa-django-utils = "==0.4.0"
 Django = "==2.1"
 django-jet = "*"
-2-1-6 = "*"
 
 [requires]
 python_version = "3.7"
