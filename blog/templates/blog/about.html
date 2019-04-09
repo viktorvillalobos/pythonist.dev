@@ -1,34 +1,24 @@
 {% extends 'blog/base.html' %}
 {% load static %}
 {% block content %}
-  <h2>About me</h2>
-  <div class="row picture">
-    <img src="{% static 'img/victor-villalobos.jpg' %}" alt="Victor Villalobos" width="200px">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <img src="{% static 'img/victor-villalobos.jpg' %}" alt="Victor Villalobos" class="profile">
+      <p>Hello, my name is Victor Villalobos, i'm from Maracaibo, Venezuela, but currently living in Santiago,
+         Chile.</p>
+
+      <p>I'm a python enthusiast, we currently work in Talana as Full Stack Python Developer, I'm also in charge of
+         scaling the platform, and i play to be DevOps.
+         Previously I worked as a consultant for other companies, now I dedicate myself to study deeply python and try
+         to improve my code every day.
+      </p>
+      <h4>Contact</h4>
+      <ul>
+        <li><b>Email:</b> <a href="mailto:viktor@pythonist.dev"></a>viktor@pythonist.dev</li>
+        <li><b>Github:</b> <a href="https://twitter.com/viktorvillalobos"></a> @viktorvillalobos</li>
+        <li><b>Twitter:</b><a href="https://twitter.com/viktordevelop">@viktordevlop</a></li>
+        <li><b>Instagram:</b> <a href="https://www.instagram.com/viktordeveloper/">@viktordeveloper</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="profile">
-
-  <br>
-  Hello, my name is Victor Villalobos, i'm from Maracaibo, Venezuela, but currently living in Santiago, Chile.
-  <br>
-  I'm a python enthusiast, we currently work in <a href="https://talana.com">Talana</a> as Full Stack Python
-  Developer,
-  I'm also in charge of scaling the platform, and i play to be DevOps.
-  <br>
-  Previously I worked as a consultant for other companies, now I dedicate myself to study deeply python and try to
-  improve my code every day.
-
-
-  </div>
-  <div class="contact">
-    <h3>Contact</h3>
-    <br>
-    <ul>
-      <li>Email: <a href="mailto:viktor@pythonist.dev">viktor@pythonist.dev</a></li>
-      <li>github: <a href="https://github.com/viktorvillalobos">@viktorvillalobos</a></li>
-      <li>Twitter: <a href="https://twitter.com/viktordevelop">@viktordevlop</a></li>
-      <li>Instagram: <a href="https://www.instagram.com/viktordeveloper/">@viktordeveloper</a> </li>
-    </ul>
-  </div>
-
-
 {% endblock %}

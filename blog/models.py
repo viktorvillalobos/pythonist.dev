@@ -14,6 +14,7 @@ class Post(models.Model):
         (PUBLISHED, _('Published'))
     )
     title = models.CharField(_('Title'), max_length=50)
+    subtitle = models.CharField(_('SubTitle'), max_length=50, default='')
     body = models.TextField(_('Body'))
     status = models.CharField(_('Status'),
                               choices=STATUS_CHOICES,
