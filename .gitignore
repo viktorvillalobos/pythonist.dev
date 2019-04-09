@@ -39,7 +39,6 @@ node_modules
 static/
 *.zip
 db.sqlite3
-zappa_settings.json
 venv
 .pycache
 __pycache__
