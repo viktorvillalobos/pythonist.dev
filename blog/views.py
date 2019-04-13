@@ -12,6 +12,6 @@ class PostListView(ListView):
 class AboutView(TemplateView):
     template_name = 'blog/about.html'
 
+
 class PostDetailView(DetailView):
     model = Post
-

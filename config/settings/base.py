@@ -38,6 +38,7 @@ DJANGO_APPS = [
 ]
 
 ADMIN_APPS = [
+    'jet'
 ]
 
 THIRD_PART_APPS = [
