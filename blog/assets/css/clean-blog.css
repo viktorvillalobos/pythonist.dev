@@ -4,7 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 body {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   color: #212529;
   font-family: 'Lora', 'Times New Roman', serif;
